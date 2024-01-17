@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /nivaw.html
+Disallow: /[REDACTED]/index.html
