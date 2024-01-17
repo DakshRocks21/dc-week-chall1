@@ -22,8 +22,8 @@ function next(clicked) {
 async function randomqn(clicked) {
   if (previndex == -1 && clicked.id == "buttonyes") {
 
-    const response = await fetch("http://raw.githubusercontent.com/dakshrocks21/data/main/test_projects/questions.json")
-    const response2 = await fetch("http://raw.githubusercontent.com/dakshrocks21/data/main/test_projects/answers.json")
+    const response = await fetch("https://raw.githubusercontent.com/dakshrocks21/data/main/test_projects/questions.json")
+    const response2 = await fetch("https://raw.githubusercontent.com/dakshrocks21/data/main/test_projects/answers.json")
 
     data = await response.json()
     ans = await response2.json()
