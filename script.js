@@ -32,7 +32,7 @@ async function randomqn(clicked) {
   }
 
   else if (previndex == -1 && clicked.id == "buttonno") {
-    pressedno = ["Press YES dumbo", "What now? Press YES", "Press YES man", "How many times should I tell, press YES", "Press NO if you are a retard", "Press Yes for good grades", "Press YES to start", "Are you ready?", "Are you ... ready??", "Press YES to pay respects", "Press NO if you want to lose your money", "Press YES for MR YEO"]
+    pressedno = ["What now? Press YES", "Press YES man", "How many times should I tell, press YES", "Press Yes for good grades", "Press YES to start", "Are you ready?", "Are you ... ready??","Press YES for MR YEO"]
 
     document.getElementById("question").innerHTML = pressedno[Math.floor(Math.random() * pressedno.length)]
   }
